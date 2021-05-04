@@ -1,4 +1,4 @@
-function Header() {
+const Header = () => {
     return (
         <header>
             <h1>Scoreboard</h1>
@@ -8,6 +8,6 @@ function Header() {
 }
 
 ReactDOM.render(
-    <Header/>, 
+    <Header />, 
     document.getElementById('root')
 );
